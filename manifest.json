@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Substack Inline Code Styler",
+  "version": "1.0",
+  "description": "Automatically styles inline code on Substack posts.",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["tabs", "*://*.substack.com/*"],
+  "icons": {
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  }
+}
